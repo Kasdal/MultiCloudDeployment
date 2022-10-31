@@ -5,3 +5,4 @@
 .terraform.lock.hcl
 credentials.json
 terraform.tfstate.backup
+.vscode
