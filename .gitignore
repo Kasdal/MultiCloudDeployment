@@ -1,0 +1,7 @@
+.terraform
+.terraform\providers
+.terraform\providers\registry.terraform.io
+.terraform\providers\registry.terraform.io\hashicorp
+.terraform.lock.hcl
+credentials.json
+terraform.tfstate.backup

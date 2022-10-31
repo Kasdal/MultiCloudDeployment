@@ -1,5 +1,5 @@
-variable "cloudprojectdemo" {
-  default = "cloudprojectdemo"
+variable "project" {
+  default = "your-project-id here" 
 }
   
 variable "vpc_gcp" {  
@@ -10,12 +10,12 @@ variable "project_id" {
   default = "myproject"
 }
 
-variable "region-gcp" {
+variable "gcp_region" {
   default = "europe-west1"
 }
 
 variable "region-aws" {
-  default = "us-east-1"
+  default = "us-east-1"  
 }
 
 variable "profile" {
@@ -26,10 +26,10 @@ variable "db_name" {
   default = "mydb"
 }
 
-variable "db_user" {
+variable "user" {
   default = "myuser"
 }
 
-variable "db_password" {
+variable "password" {
   default = "mypassword"
 }
